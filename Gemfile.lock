@@ -1,0 +1,20 @@
+GIT
+  remote: git://github.com/brendanjcaffrey/core-data-in-motion.git
+  revision: 8f5dc564d07e3367ad39497641abc159cf03d49a
+  specs:
+    core-data-in-motion (0.0.1)
+      motion-support
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    motion-require (0.0.7)
+    motion-support (0.2.4)
+      motion-require (>= 0.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  core-data-in-motion!
+  motion-support
